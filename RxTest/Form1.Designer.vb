@@ -22,56 +22,56 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.btnPlus = New System.Windows.Forms.Button
+        Me.btnMinus = New System.Windows.Forms.Button
+        Me.txtResult = New System.Windows.Forms.TextBox
         Me.SuspendLayout()
         '
-        'Button1
+        'btnPlus
         '
-        Me.Button1.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Button1.Location = New System.Drawing.Point(16, 27)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 48)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "＋"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnPlus.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnPlus.Location = New System.Drawing.Point(16, 27)
+        Me.btnPlus.Name = "btnPlus"
+        Me.btnPlus.Size = New System.Drawing.Size(122, 48)
+        Me.btnPlus.TabIndex = 0
+        Me.btnPlus.Text = "＋"
+        Me.btnPlus.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnMinus
         '
-        Me.Button2.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Button2.Location = New System.Drawing.Point(150, 27)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(122, 48)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "－"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnMinus.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnMinus.Location = New System.Drawing.Point(150, 27)
+        Me.btnMinus.Name = "btnMinus"
+        Me.btnMinus.Size = New System.Drawing.Size(122, 48)
+        Me.btnMinus.TabIndex = 0
+        Me.btnMinus.Text = "－"
+        Me.btnMinus.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtResult
         '
-        Me.TextBox1.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(68, 118)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(145, 44)
-        Me.TextBox1.TabIndex = 1
+        Me.txtResult.Font = New System.Drawing.Font("MS UI Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtResult.Location = New System.Drawing.Point(68, 118)
+        Me.txtResult.Name = "txtResult"
+        Me.txtResult.ReadOnly = True
+        Me.txtResult.Size = New System.Drawing.Size(145, 44)
+        Me.txtResult.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 195)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.txtResult)
+        Me.Controls.Add(Me.btnMinus)
+        Me.Controls.Add(Me.btnPlus)
         Me.Name = "Form1"
         Me.Text = "RxTest"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents btnPlus As System.Windows.Forms.Button
+    Friend WithEvents btnMinus As System.Windows.Forms.Button
+    Friend WithEvents txtResult As System.Windows.Forms.TextBox
 
 End Class
